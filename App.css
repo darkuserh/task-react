@@ -1,0 +1,54 @@
+
+  body {
+    background: #00b09b;
+    background: -webkit-linear-gradient(to right, #00b09b, #96c93d);
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+  .App {
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+    }
+  .header{
+       color: #1fa091;
+    }
+  .task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .task-buttons button {
+  margin-left: 10px;
+  background-color: rgb(206, 44, 44);
+  border-radius: 15px;
+  }
+  
+  li {
+  margin-bottom: 20px;
+  }
+  
+  label {
+  display: block;
+  margin-bottom: 5px;
+  color: darkblue;
+  }
+  
+  input,
+  textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #96c93d;
+
+  }
+  
+  button {
+  cursor: pointer;
+  background-color: rgb(206, 44, 44);
+  color: white;
+  border-radius: 15px;
+  }
+ 
